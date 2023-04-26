@@ -15,5 +15,5 @@ Hooks=rc
 
 defined('COT_CODE') or die('Wrong URL');
 
-if ($env['location'] == 'administration')
+if ($env['ext'] == 'admin')
 Resources::linkFileFooter($cfg['plugins_dir'].'/fonts/fonts/opensans/opensans.min.css');
